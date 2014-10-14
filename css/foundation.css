@@ -1,0 +1,52 @@
+/*
+Error: Invalid CSS after "...tion/settings";": expected file to import (string or url()), was "body {"
+        on line 43 of /var/folders/54/v3dvx2qn7rjcr99g54nvq3xw0021cy/T/gulp-ruby-sass/foundation.scss
+
+38:   "foundation/components/type",
+39:   "foundation/components/offcanvas",
+40:   "foundation/components/visibility",
+41:   // "foundation/settings";
+42: 
+43:   body {
+44:     color: $primary-color;
+45:     margin: auto;
+46:     display: block;
+47:     max-width: 100%;
+48:     width: 980px;
+
+Backtrace:
+/var/folders/54/v3dvx2qn7rjcr99g54nvq3xw0021cy/T/gulp-ruby-sass/foundation.scss:43
+/Users/luisc/.rvm/gems/ruby-2.1.0@global/gems/sass-3.4.1/lib/sass/scss/parser.rb:1163:in `expected'
+/Users/luisc/.rvm/gems/ruby-2.1.0@global/gems/sass-3.4.1/lib/sass/scss/parser.rb:1099:in `expected'
+/Users/luisc/.rvm/gems/ruby-2.1.0@global/gems/sass-3.4.1/lib/sass/scss/parser.rb:1079:in `expr!'
+/Users/luisc/.rvm/gems/ruby-2.1.0@global/gems/sass-3.4.1/lib/sass/scss/parser.rb:368:in `block in import_directive'
+/Users/luisc/.rvm/gems/ruby-2.1.0@global/gems/sass-3.4.1/lib/sass/scss/parser.rb:367:in `loop'
+/Users/luisc/.rvm/gems/ruby-2.1.0@global/gems/sass-3.4.1/lib/sass/scss/parser.rb:367:in `import_directive'
+/Users/luisc/.rvm/gems/ruby-2.1.0@global/gems/sass-3.4.1/lib/sass/scss/parser.rb:219:in `special_directive'
+/Users/luisc/.rvm/gems/ruby-2.1.0@global/gems/sass-3.4.1/lib/sass/scss/parser.rb:194:in `directive'
+/Users/luisc/.rvm/gems/ruby-2.1.0@global/gems/sass-3.4.1/lib/sass/scss/parser.rb:660:in `block_child'
+/Users/luisc/.rvm/gems/ruby-2.1.0@global/gems/sass-3.4.1/lib/sass/scss/parser.rb:653:in `block_contents'
+/Users/luisc/.rvm/gems/ruby-2.1.0@global/gems/sass-3.4.1/lib/sass/scss/parser.rb:117:in `stylesheet'
+/Users/luisc/.rvm/gems/ruby-2.1.0@global/gems/sass-3.4.1/lib/sass/scss/parser.rb:42:in `parse'
+/Users/luisc/.rvm/gems/ruby-2.1.0@global/gems/sass-3.4.1/lib/sass/engine.rb:393:in `_to_tree'
+/Users/luisc/.rvm/gems/ruby-2.1.0@global/gems/sass-3.4.1/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/Users/luisc/.rvm/gems/ruby-2.1.0@global/gems/sass-3.4.1/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/Users/luisc/.rvm/gems/ruby-2.1.0@global/gems/sass-3.4.1/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/Users/luisc/.rvm/gems/ruby-2.1.0@global/gems/sass-3.4.1/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/luisc/.rvm/gems/ruby-2.1.0@global/gems/sass-3.4.1/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/luisc/.rvm/gems/ruby-2.1.0@global/gems/sass-3.4.1/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/luisc/.rvm/gems/ruby-2.1.0@global/gems/sass-3.4.1/lib/sass/plugin.rb:82:in `update_stylesheets'
+/Users/luisc/.rvm/gems/ruby-2.1.0@global/gems/sass-3.4.1/lib/sass/exec/sass_scss.rb:329:in `watch_or_update'
+/Users/luisc/.rvm/gems/ruby-2.1.0@global/gems/sass-3.4.1/lib/sass/exec/sass_scss.rb:50:in `process_result'
+/Users/luisc/.rvm/gems/ruby-2.1.0@global/gems/sass-3.4.1/lib/sass/exec/base.rb:40:in `parse'
+/Users/luisc/.rvm/gems/ruby-2.1.0@global/gems/sass-3.4.1/lib/sass/exec/base.rb:19:in `parse!'
+/Users/luisc/.rvm/gems/ruby-2.1.0@global/gems/sass-3.4.1/bin/sass:13:in `<top (required)>'
+/Users/luisc/.rvm/gems/ruby-2.1.0@global/bin/sass:23:in `load'
+/Users/luisc/.rvm/gems/ruby-2.1.0@global/bin/sass:23:in `<main>'
+/Users/luisc/.rvm/gems/ruby-2.1.0@global/bin/ruby_executable_hooks:15:in `eval'
+/Users/luisc/.rvm/gems/ruby-2.1.0@global/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...tion/settings\";\": expected file to import (string or url()), was \"body {\"\A         on line 43 of /var/folders/54/v3dvx2qn7rjcr99g54nvq3xw0021cy/T/gulp-ruby-sass/foundation.scss\A \A 38:   \"foundation/components/type\",\A 39:   \"foundation/components/offcanvas\",\A 40:   \"foundation/components/visibility\",\A 41:   // \"foundation/settings\";\A 42: \A 43:   body {\A 44:     color: $primary-color;\A 45:     margin: auto;\A 46:     display: block;\A 47:     max-width: 100%;\A 48:     width: 980px;"; }

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Increase and Decrease Fontsize | Fontsizangular</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="bower_components/foundation/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/foundation/css/foundation.css">
+
+	
+</head>
+<body>
+
+<div ng-app="fontSizelar" ng-controller="fontSizeCtrl as fs">
+ <div class="row">
+  <h1>FontSizAngular</h1>
+</div>
+
+
+<form>
+
+  <div class="row">
+    <div class="large-4 columns">
+      <label>Font Size change
+        <input type="text" id="input-number"  class="large-4 columns" my-validator ng-model="fs.sizeFont" valid-values="validValues" maxlength="2" />
+      </label>
+    </div>
+</div>
+  <div class="row">
+  	<input type="button" class="button" id="increase" value="A+" ng-click="fs.increase()"/>
+  	<input type="button" class="button" id="decrease" value="A-" ng-click="fs.decrease()"/>
+
+  </div>
+
+
+
+</form>
+
+  
+  <br />
+ 	<div class="row">
+	  <h2>Text to change:</h2>
+	  <p style="font-size :{{fs.total}}px" >
+	    This example use AngularJS for increase and decrease the font size on text, the current font size is <span>{{fs.total}}</span>px.
+	  </p>  
+	  <div class="large-4 columns">
+	  	<a href="#" class="button column small-centered " aling="center" >Download</a>
+	  </div>
+	</div>
+</div>
+
+
+
+ <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+ <script src="js/app.js"></script>
+</body>
+</html>
