@@ -15,6 +15,13 @@
 ```
 * Use the following code into yout div, p, h, ect.
 ```html
-    style="font-size :{{fs.total}}px" 
+    <p style="font-size :{{fs.total}}px" > Your Text </p>
 ```
+* Use the following code into insert your click control for increase and decrease the font size in your website.
+```html
+    <input type="button" id="increase" value="A+" ng-click="fs.increase()"/>
+  	<input type="button" id="decrease" value="A-" ng-click="fs.decrease()"/>
+```
+
+
 
