@@ -8,8 +8,13 @@
 
 ## Getting Started
 * Install Fontsizengular
-* **Download this repo and locate the js folder with the app** - to use put the app.js in your folder.
-* **Call the script in your html** 
+* Download this repo and locate the js folder with the app, to use put the fontSizengular.js in your folder.
+* Call the script in your html
 ```html
-    <script src="{{my-fodler}}/app.js"></script>
+    <script src="{{my-fodler}}/fontSizengular.js"></script>
 ```
+* Use the following code into yout div, p, h, ect.
+```html
+    style="font-size :{{fs.total}}px" 
+```
+
