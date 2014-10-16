@@ -2,9 +2,7 @@
 
 ## Features
 
-* **artist** - Increase and decrease font size on your site.
-* **song** - search songs by artist, title, description, or attribute (tempo, duration, etc) and get detailed information back about each song, such as hotttnesss, audio_summary, or tracks.
-* **track** - upload a track to the Echo Nest and receive summary information about the track including key, duration, mode, tempo, time signature along with detailed track info inclu
+* **What do the script** - Increase and decrease font size on your site.
 
 ## Getting Started
 * Install Fontsizengular
